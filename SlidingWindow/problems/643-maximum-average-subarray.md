@@ -30,3 +30,4 @@ class Solution:
             if windowSum > maxSum:
                 maxSum = windowSum
         return maxSum / k
+```
