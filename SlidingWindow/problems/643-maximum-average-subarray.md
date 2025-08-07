@@ -31,3 +31,10 @@ class Solution:
                 maxSum = windowSum
         return maxSum / k
 ```
+
+---
+
+### Complexity Analysis
+
+- **Time Complexity**: O(n) — We iterate over the array once.  
+- **Space Complexity**: O(1) — Constant extra space is used.
