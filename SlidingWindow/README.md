@@ -29,7 +29,6 @@ for i in range(k, len(nums)):
 
 - **Problems**:
   - <a href="https://leetcode.com/problems/maximum-average-subarray-i/" target="_blank">643. Maximum Average Subarray I</a> → <a href="./problems/643-maximum-average-subarray.md" target="_blank">Solution Notes</a>
-  - <a href="https://leetcode.com/problems/maximum-average-subarray-i/" target="_blank">643. Maximum Average Subarray I</a> → <a href="./problems/643-maximum-average-subarray-i.md" target="_blank">Solution Notes</a>
   - <a href="https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/" target="_blank">2379. Minimum Recolors to Get K Consecutive Black Blocks</a> → <a href="./problems/2379-minimum-recolors-to-get-k-consecutive-black-blocks.md" target="_blank">Solution Notes</a>
-  - <a href="https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/" target="_blank">1984. Minimum Difference Between Highest and Lowest of K Scores</a> → <a href="./problems/1984-minimum-difference-between-highest-and-lowest-of-k-scores.md" target="_blank">Solution Notes</a>
+  - <a href="https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/" target="_blank">1456. Maximum Number of Vowels in a Substring of Given Length</a> → <a href="./problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length.md" target="_blank">Solution Notes</a>
   - <a href="https://leetcode.com/problems/diet-plan-performance/" target="_blank">1176. Diet Plan Performance</a> → <a href="./problems/1176-diet-plan-performance.md" target="_blank">Solution Notes</a>
