@@ -9,8 +9,7 @@ Sliding Window can often reduces time complexity from O(n²) to O(n) for many su
 
 - **Use case**: When the window size is given as k, and you need to find the maximum, minimum, or other value within every contiguous subarray of length K.
 - **Technique**: First, initialize the window with the first k elements, then slide the window starting from i = k, updating the window state at each step.
-
-### 1.1 General Template
+- **General Template**:
 
 ```python
 # Initialize the window state (e.g., sum, max, count, etc.)
