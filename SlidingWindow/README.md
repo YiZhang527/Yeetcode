@@ -12,7 +12,7 @@ Sliding Window can often reduces time complexity from O(n²) to O(n) for many su
 - **General Template**:
 
 ```python
-# Initialize the window state (e.g., sum, max, count, etc.)
+# Initialize the window state
 window_state = process(nums[:k])
 result = window_state  # Initial result (could be sum, max, count, etc.)
 
