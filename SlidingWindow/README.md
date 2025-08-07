@@ -28,3 +28,4 @@ for i in range(k, len(nums)):
 ```
 
 - **Problems**: 643. Maximum Average Subarray I
+- 643. Maximum Average Subarray I
