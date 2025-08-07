@@ -40,6 +40,6 @@ class Solution:
 
 ### Complexity Analysis
 
-- **Time Complexity**: O(n) — We iterate over the array once.  
-- **Space Complexity**: O(1) — Constant extra space is used.
+- Time Complexity: O(n) — We iterate over the array once.  
+- Space Complexity: O(1) — Constant extra space is used.
 
