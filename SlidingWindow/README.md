@@ -31,5 +31,4 @@ for i in range(k, len(nums)):
   - [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
   - [1176. Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/)
   - [1984. Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)
-  - <a href="./problems/643-maximum-average-subarray.md" target="_blank">643. Maximum Average Subarray I</a> - 入门级
-  - <a href="./problems/1176-diet-plan-performance.md" target="_blank">1176. Diet Plan Performance</a> - 进阶
+  - <a href="https://leetcode.com/problems/maximum-average-subarray-i/" target="_blank">643. Maximum Average Subarray I</a> → <a href="./problems/643-maximum-average-subarray.md" target="_blank">解题笔记</a>
