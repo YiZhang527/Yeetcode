@@ -27,5 +27,7 @@ for i in range(k, len(nums)):
     result = update(result, window_state)
 ```
 
-- **Problems**: 643. Maximum Average Subarray I
-                643. Maximum Average Subarray I
+- **Problems**:
+  - 643. Maximum Average Subarray I
+  - 1176. Diet Plan Performance
+  - 1984. Minimum Difference Between Highest and Lowest of K Scores
