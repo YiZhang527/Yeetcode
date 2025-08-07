@@ -27,5 +27,4 @@ for i in range(k, len(nums)):
     result = update(result, window_state)
 ```
 
-- **Problems**:
-643. Maximum Average Subarray I
+- **Problems**: 643. Maximum Average Subarray I
