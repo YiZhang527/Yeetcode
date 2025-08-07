@@ -24,7 +24,7 @@ for i in range(k, len(nums)):
     window_state -= nums[i - k]
 
     # Update the result based on the current window state
-    result = update(result, window_state)
+    result = update(result, window_state)```
 
 - **Problems**:
 643. Maximum Average Subarray I
