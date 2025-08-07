@@ -5,7 +5,7 @@ This repository documents my insights, solution approaches, and code implementat
 ## 📚 Content Structure
 
 ### Data Structures
-[Binary Tree](./BinaryTree/README.md) (In Progress)
+- [Binary Tree](./BinaryTree/README.md) (In Progress)
 
 ### Algorithm Techniques
 - [Sliding Window](./SlidingWindow/README.md) (In Progress)
