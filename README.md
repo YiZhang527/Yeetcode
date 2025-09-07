@@ -6,6 +6,7 @@ This repository documents my insights, solution approaches, and code implementat
 
 ### Data Structures
 - [Binary Tree](./BinaryTree/README.md) (In Progress)
+- [2D Array / Matrix](./2DArray/README.md) (In Progress)
 
 ### Algorithm Techniques
 - [Sliding Window](./SlidingWindow/README.md) (In Progress)
