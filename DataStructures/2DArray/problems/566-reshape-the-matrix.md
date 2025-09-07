@@ -10,7 +10,7 @@ To find the subarray of size `k` with the maximum average, we can:
 
 ---
 
-### Code
+### Code1
 
 ```python
 class Solution:
@@ -28,6 +28,24 @@ class Solution:
                 if newj == c:
                     newj = 0
                     newi += 1
+        return res
+```
+
+### Code2
+
+```python
+class Solution:
+    def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
+        m, n = len(mat), len(mat[0])
+        if m * n != r * c:
+            return mat
+        
+        res = [[0]*c for _ in range(r)]
+        k = 0
+        for i in range(m):
+            for j in range(n):
+                res[k // c][k % c] = mat[i][j]
+                k += 1
         return res
 ```
 
