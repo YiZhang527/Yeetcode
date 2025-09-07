@@ -16,4 +16,4 @@ m, n = 3, 3
 matrix = [[0] * n for _ in range(m)]
 ```
 
-## Problems
+## Easy Problems
