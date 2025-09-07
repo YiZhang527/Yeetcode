@@ -20,7 +20,7 @@ Bit manipulation provides efficient O(1) space solutions for set operations, sta
 - **Clear lowest set bit**: `num & (num - 1)`
 - **Get lowest set bit**: `num & -num`
 
-## Bit Manipulation: Set / Clear / Toggle
+#### Bit Manipulation: Set / Clear / Toggle
 
 In bit manipulation, each bit can be thought of as a switch:
 
