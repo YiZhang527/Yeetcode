@@ -15,3 +15,5 @@ A 2D array is a common data structure that represents a table, matrix, or grid, 
 m, n = 3, 3
 matrix = [[0] * n for _ in range(m)]
 ```
+
+## Problems
