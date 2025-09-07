@@ -1,20 +1,18 @@
-## LeetCode 1456 - Maximum Number of Vowels in a Substring of Given Length
+## LeetCode 643 - Maximum Average Subarray I
 
 ### Description
 
-Given a string `s` and an integer `k`, return the maximum number of vowel letters in any substring of `s` with length `k`.
-
-Vowels are: `'a'`, `'e'`, `'i'`, `'o'`, `'u'`.
+Given an integer array `nums` and an integer `k`, return the maximum average value of any contiguous subarray of length `k`.
 
 ---
 
 ### Approach: Sliding Window
 
-To find the substring of size `k` with the maximum number of vowels, we can:
+To find the subarray of size `k` with the maximum average, we can:
 
-- Start by counting the vowels in the first `k` characters.  
-- Then slide the window: at each step, check the new character entering the window and the old character leaving the window.  
-- Keep track of the maximum vowel count encountered.
+- Start by calculating the sum of the first `k` elements.  
+- Then slide the window: at each step, subtract the element that moves out of the window and add the new element coming into the window.  
+- Keep track of the maximum sum encountered.
 
 ---
 
@@ -22,22 +20,21 @@ To find the substring of size `k` with the maximum number of vowels, we can:
 
 ```python
 class Solution:
-    def maxVowels(self, s: str, k: int) -> int:
-        vowels = "aeiou"
-        count = sum(c in vowels for c in s[:k])
-        maxCount = count
-        for i in range(k, len(s)):
-            if s[i] in vowels:
-                count += 1
-            if s[i - k] in vowels:
-                count -= 1
-            if count > maxCount:
-                maxCount = count
-        return maxCount
+    def findMaxAverage(self, nums: List[int], k: int) -> float:
+        n = len(nums)
+        windowSum = sum(nums[:k])
+        maxSum = windowSum
+        for i in range(k, n):
+            windowSum += nums[i]
+            windowSum -= nums[i - k]
+            if windowSum > maxSum:
+                maxSum = windowSum
+        return maxSum / k
 ```
 
 ---
 
 ### Complexity Analysis
-- Time Complexity: O(n) — We iterate over the string once.
+
+- Time Complexity: O(n) — We iterate over the array once.  
 - Space Complexity: O(1) — Constant extra space is used.
