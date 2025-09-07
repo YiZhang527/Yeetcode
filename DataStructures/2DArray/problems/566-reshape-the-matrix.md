@@ -6,7 +6,7 @@ To find the subarray of size `k` with the maximum average, we can:
 
 - First check if reshaping is possible: m * n must equal r * c
 - If not possible, return the original matrix
-- Traverse the original matrix row by row, and place elements into the new matrix
+- Take out the elements of the original matrix in order, fill them into the new matrix one by one, and move to the next row when one row is filled
 
 ---
 
