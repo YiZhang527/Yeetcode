@@ -20,6 +20,17 @@ Bit manipulation provides efficient O(1) space solutions for set operations, sta
 - **Clear lowest set bit**: `num & (num - 1)`
 - **Get lowest set bit**: `num & -num`
 
+## Bit Manipulation: Set / Clear / Toggle
+
+In bit manipulation, each bit can be thought of as a switch:
+
+| Operation | Bit Value | Switch Analogy | Description |
+|-----------|-----------|----------------|------------|
+| **Set**    | 1         | Turn the switch ON  | Set a specific bit to 1, leaving other bits unchanged |
+| **Clear**  | 0         | Turn the switch OFF | Set a specific bit to 0, leaving other bits unchanged |
+| **Toggle** | Flip      | Flip the switch state | Flip a specific bit: 0 → 1 or 1 → 0, leaving other bits unchanged |
+
+
 ### ⚠️ Important Note on Operator Precedence
 **Bitwise operators have lower precedence than arithmetic operators!** For example:
 - `1 << n + 1` means `1 << (n + 1)`, NOT `(1 << n) + 1`
