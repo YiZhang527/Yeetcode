@@ -2,7 +2,8 @@
 
 ### Approach: Dynamic Programming (Recurrence Type)
 
-- Build the triangle row by row with 1s.
+- Build the triangle row by row.
+- Initialize each row with 1s.
 - For rows from the third onward, fill the middle elements by adding the two numbers directly above from the previous row.
 - Store each completed row so it can be used to calculate the next row.
 
