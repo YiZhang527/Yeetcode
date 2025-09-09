@@ -6,8 +6,6 @@
 - For rows from the third onward, fill the middle elements by adding the two numbers directly above from the previous row.
 - Store each completed row so it can be used to calculate the next row.
 
----
-
 ### Code
 
 ```python
@@ -23,7 +21,6 @@ class Solution:
         return dp
 ```
 
----
 
 
 
