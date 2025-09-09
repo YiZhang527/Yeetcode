@@ -1,6 +1,6 @@
-## LeetCode 566 - Reshape the Matrix
+# LeetCode 566 - Reshape the Matrix
 
-### Approach: Linear Index Mapping
+## Approach: Linear Index Mapping
 
 To find the subarray of size `k` with the maximum average, we can:
 
@@ -8,7 +8,7 @@ To find the subarray of size `k` with the maximum average, we can:
 - If not possible, return the original matrix
 - Take out the elements of the original matrix in order, fill them into the new matrix one by one, and move to the next row when one row is filled
 
-### Code1
+## Code1
 
 ```python
 class Solution:
@@ -29,7 +29,7 @@ class Solution:
         return res
 ```
 
-### Code2
+## Code2
 
 ```python
 class Solution:
