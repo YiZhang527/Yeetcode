@@ -7,7 +7,7 @@ To transpose a matrix, we can:
 - Get the number of rows `m` and columns `n` of the original matrix.
 - Create a new matrix of size `n x m`.
 - For each element at position `(i, j)` in the original matrix, put it at position `(j, i)` in the new matrix.
-    - Why swapping indices achieves transposition:
+    - **Why swapping indices achieves transposition:**
       
       Visual understanding:
       ```
