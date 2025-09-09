@@ -1,6 +1,6 @@
 # LeetCode 867 - Transpose Matrix
 
-### Approach: Row-Column Index Swap
+## Approach: Row-Column Index Swap
 
 To transpose a matrix, we can:
 
@@ -26,7 +26,7 @@ To transpose a matrix, we can:
       ```
       So the core of transposition is: swapping the row and column indices of each element, which transforms each horizontal row into a vertical column.
       
-### Code
+## Code
 
 ```python
 class Solution:
