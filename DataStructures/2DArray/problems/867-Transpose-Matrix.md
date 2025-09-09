@@ -25,8 +25,7 @@ To transpose a matrix, we can:
       6: (2,1) → (1,2)  # Row and column indices swap
       ```
       So the core of transposition is: swapping the row and column indices of each element, which transforms each horizontal row into a vertical column.
----
-
+      
 ### Code
 
 ```python
@@ -40,13 +39,4 @@ class Solution:
                 res[j][i] = matrix[i][j]
         return res
 ```
-
----
-
-### Complexity Analysis
-
-- Time Complexity: O(m × n) — We iterate through all elements once
-- Space Complexity: O(m × n) — Space needed for the output matrix
-
-
 
