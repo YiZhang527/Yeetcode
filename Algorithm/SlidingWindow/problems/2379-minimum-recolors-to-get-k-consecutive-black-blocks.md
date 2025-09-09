@@ -1,13 +1,6 @@
-## LeetCode 2379 - Minimum Recolors to Get K Consecutive Black Blocks
+# LeetCode 2379 - Minimum Recolors to Get K Consecutive Black Blocks
 
-### Description
-
-You are given a string `blocks` consisting of characters `'W'` and `'B'`, and an integer `k`.  
-Return the minimum number of white `'W'` blocks that need to be recolored to black `'B'` so that there is at least one substring of length `k` containing only black blocks.
-
----
-
-### Approach: Sliding Window
+## Approach: Sliding Window
 
 To find the minimum number of white blocks to recolor in any substring of length `k`, we can:
 
@@ -17,9 +10,7 @@ To find the minimum number of white blocks to recolor in any substring of length
   - Subtract 1 if the character leaving the window is `'W'`.  
 - Keep track of the minimum count of `'W'` encountered during the sliding process.
 
----
-
-### Code
+## Code
 
 ```python
 class Solution:
@@ -35,11 +26,4 @@ class Solution:
                 minChange = change
         return minChange
 ```
-
----
-
-### Complexity Analysis
-
-- Time Complexity: O(n) — We iterate over the array once.  
-- Space Complexity: O(1) — Constant extra space is used.
 
