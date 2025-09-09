@@ -1,14 +1,6 @@
-## LeetCode 1456 - Maximum Number of Vowels in a Substring of Given Length
+# LeetCode 1456 - Maximum Number of Vowels in a Substring of Given Length
 
-### Description
-
-Given a string `s` and an integer `k`, return the maximum number of vowel letters in any substring of `s` with length `k`.
-
-Vowels are: `'a'`, `'e'`, `'i'`, `'o'`, `'u'`.
-
----
-
-### Approach: Sliding Window
+## Approach: Sliding Window
 
 To find the substring of size `k` with the maximum number of vowels, we can:
 
@@ -16,9 +8,7 @@ To find the substring of size `k` with the maximum number of vowels, we can:
 - Then slide the window: at each step, check the new character entering the window and the old character leaving the window.  
 - Keep track of the maximum vowel count encountered.
 
----
-
-### Code
+## Code
 
 ```python
 class Solution:
@@ -35,9 +25,3 @@ class Solution:
                 maxCount = count
         return maxCount
 ```
-
----
-
-### Complexity Analysis
-- Time Complexity: O(n) — We iterate over the string once.
-- Space Complexity: O(1) — Constant extra space is used.
