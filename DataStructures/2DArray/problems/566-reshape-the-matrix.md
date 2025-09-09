@@ -8,8 +8,6 @@ To find the subarray of size `k` with the maximum average, we can:
 - If not possible, return the original matrix
 - Take out the elements of the original matrix in order, fill them into the new matrix one by one, and move to the next row when one row is filled
 
----
-
 ### Code1
 
 ```python
@@ -48,11 +46,4 @@ class Solution:
                 k += 1
         return res
 ```
-
----
-
-### Complexity Analysis
-
-- Time Complexity: O(m × n) — We iterate through all elements once 
-- Space Complexity: O(m × n) — Space needed for the output matrix
 
