@@ -18,3 +18,4 @@ matrix = [[0] * n for _ in range(m)]
 
 ## Easy Problems
 - <a href="https://leetcode.com/problems/reshape-the-matrix/" target="_blank">566. Reshape the Matrix</a> → <a href="./problems/566-reshape-the-matrix.md" target="_blank">Solution Notes</a>
+- <a href="https://leetcode.com/problems/transpose-matrix/" target="_blank">867. Transpose Matrix</a> → <a href="./problems/867-Transpose-Matrix.md" target="_blank">Solution Notes</a>
