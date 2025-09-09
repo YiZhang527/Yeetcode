@@ -33,5 +33,13 @@ for i in range(1, n+1):
 return dp[n]
 ```
 
+These two categories cover about **90% of DP problems**.  
+The remaining few belong to more advanced types, such as:  
+
+- **State Compression DP** (e.g., Travelling Salesman Problem)  
+- **Interval DP** (e.g., Matrix Chain Multiplication, Burst Balloons)  
+- **Tree DP** (e.g., Maximum Independent Set on a tree)  
+
+
 ## Easy Problems
 <a href="https://leetcode.com/problems/pascals-triangle/" target="_blank">118. Pascal's Triangle</a> → <a href="./problems/118-pascals-triangle.md" target="_blank">Solution Notes</a>
