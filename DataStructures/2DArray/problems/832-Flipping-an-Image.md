@@ -18,9 +18,9 @@ class Solution:
 ```Python
 class Solution:
     def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:
-        m, n = len(image), len(image[0])
-        for i in range(m):
-            for j in range((n + 1) // 2):
-                image[i][j], image[i][n-1-j] = image[i][n-1-j] ^ 1, image[i][j] ^ 1
+        for row in image:
+            n = len(row)
+            for i in range((n + 1) // 2):
+                row[i], row[n-1-i] = row[n-1-i] ^ 1, row[i] ^ 1
         return image
 ```
