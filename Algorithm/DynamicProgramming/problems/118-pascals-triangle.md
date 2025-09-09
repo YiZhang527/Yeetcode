@@ -25,10 +25,5 @@ class Solution:
 
 ---
 
-### Complexity Analysis
-
-- Time Complexity: O(numRows²) — Total number of elements in the triangle
-- Space Complexity: O(numRows²) — Space to store the entire triangle
-
 
 
