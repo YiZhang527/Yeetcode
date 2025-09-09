@@ -5,40 +5,27 @@ It often reduces time complexity by avoiding redundant computations through **re
 
 ## Two Common Types of DP
 
-### 1. Recurrence / Construction Type
+## 1. **Recurrence/Construction Type (Building/Counting Problems)**
+* **Characteristics:** Each element depends on previous (or above) elements for calculation
+* **Examples:**
+  * Pascal's Triangle (each element = sum of two elements from row above)
+  * Fibonacci Sequence (`f(n) = f(n-1) + f(n-2)`)
+  * Climbing Stairs (`dp[i] = dp[i-1] + dp[i-2]`)
+* 🔑 **Core Concept:** **State transition formula + Initial conditions**
 
-- **Use case**: When each state depends on previously computed states, often in sequence building or counting problems.
-- **Technique**: Define a recurrence relation and build the solution step by step.
-- **Examples**: Fibonacci numbers, Pascal’s Triangle, Climbing Stairs.
-- **General Template**:
-```python
-dp = [0] * (n+1)
-dp[0], dp[1] = base_case_0, base_case_1
+## 2. **Optimization Type (Maximum/Minimum/Optimal Solution)**
+* **Characteristics:** Seeking "optimal solution", typically using **min or max operations**
+* **Examples:**
+  * Knapsack Problem (maximize value)
+  * Shortest Path (minimize path cost)
+  * Stock Trading Problem (maximize profit)
+* 🔑 **Core Concept:** **dp[i] represents the optimal solution under certain constraints**
 
-for i in range(2, n+1):
-    dp[i] = transition(dp[i-1], dp[i-2])
-return dp[n]
-```
-### 2. Optimization Type (Max/Min)
+## Summary
+* **Dependency relationships → Recurrence Type DP**
+* **Finding optimal values → Optimization Type DP**
 
-- **Use case**: When the problem asks for the maximum, minimum, or optimal value under certain constraints.
-- **Technique**: Define `dp[i]` as the best solution up to index `i`, then update it by taking `min`/`max` over possible choices.
-- **General Template**:
-```python
-dp = [0] * (n+1)
-dp[0] = base_case
-
-for i in range(1, n+1):
-    dp[i] = min_or_max(choice_1, choice_2, ...)
-return dp[n]
-```
-
-These two categories cover about **90% of DP problems**.  
-The remaining few belong to more advanced types, such as:  
-
-- **State Compression DP** (e.g., Travelling Salesman Problem)  
-- **Interval DP** (e.g., Matrix Chain Multiplication, Burst Balloons)  
-- **Tree DP** (e.g., Maximum Independent Set on a tree)  
+These two categories cover approximately 90% of DP problems. The remaining problems involve more advanced techniques like **state compression, interval DP, tree DP**, etc.
 
 
 ## Easy Problems
