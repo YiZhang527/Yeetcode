@@ -4,7 +4,7 @@
 
 A **Heap** is a complete binary tree that satisfies the heap property. It's commonly used to implement priority queues and efficiently find the min/max element.
 
-### Key Properties
+## Key Properties
 - **Complete Binary Tree**: All levels are filled except possibly the last
 - **Heap Property**: 
   - Min Heap: Parent ≤ Children
