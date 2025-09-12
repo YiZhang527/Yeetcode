@@ -7,6 +7,7 @@ This repository documents my insights, solution approaches, and code implementat
 ## 📚 Content Structure
 
 ### Data Structures
+- [Heap / Priority Queue](./data-structures/heap.md) (In Progress)
 - [Binary Tree](./DataStructures/BinaryTree/README.md) (In Progress)
 - [2D Array / Matrix](./DataStructures/2DArray/README.md) (In Progress)
 
