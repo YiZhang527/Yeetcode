@@ -36,6 +36,12 @@ while left < right:  # Note: using
         right = mid
 return left  # left == right
 ```
+## Memory Tips
+
+| Loop Condition | Update Method | Result |
+|----------------|---------------|--------|
+| `while left <= right` | `left = mid + 1`<br>`right = mid - 1` | **Cross over** (left = right + 1) |
+| `while left < right` | `left = mid + 1`<br>`right = mid` | **Converge** (left = right) |
 
 ## Common Problem Classification
 
